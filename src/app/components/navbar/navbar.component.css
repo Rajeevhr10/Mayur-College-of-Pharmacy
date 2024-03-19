@@ -104,7 +104,7 @@
 	position: relative;
 	overflow: hidden;
 	float: right;
-	padding: 33px 0px;
+	padding: 3px 0px;  /*changed from 33px 0px*/
 }
 
 .header-contact-info ul li {
@@ -256,7 +256,7 @@ button.navbar-toggler:focus {
 .button-background-move:hover:after {
   top: 0px;
   left: 0px;
-  background-color: #3db51cea;
+  background-color: #b5a61cea;
   color: #ff2b58;
 }
 
@@ -265,3 +265,40 @@ button.navbar-toggler:focus {
     padding: 13px 50px 13px;
   }
 }
+
+
+/* CSS for positioning PDF links above the "Apply Now" button horizontally */
+.pdf-links {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: flex-end; /* Align items to the right */
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.pdf-links ul {
+  list-style-type: none;
+  padding-top: 25px;
+  margin-top: 0;
+  display: flex; /* Display the list items (links) horizontally */
+}
+
+.pdf-links ul li {
+  margin-right: 10px; /* Adjust spacing between links */
+}
+
+/* Style for PDF download links */
+.pdf-links ul li a {
+  color: #000; /* Link color */
+  text-decoration: none;
+  background-color: #f0f0f0; /* Background color */
+  padding: 8px 12px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.pdf-links ul li a:hover {
+  background-color: #e0e0e0; /* Hover background color */
+}
+
+/* Additional styling for the existing content (address, contact, apply now) */
+/* .header-contact-info {
+ 
+} */

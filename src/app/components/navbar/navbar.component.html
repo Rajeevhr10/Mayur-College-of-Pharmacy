@@ -1,4 +1,4 @@
-<header class="header-area">
+<!-- <header class="header-area">
   <div class="container">
       <div class="row">
           <div class="col-xl-3 col-lg-3 col-md-12">
@@ -45,9 +45,68 @@
           </div>           
       </div>
   </div>
- <!-- <hr width="100%" class="line">-->
-</header>
+ 
+</header> -->
 
+<header class="header-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-12">
+        <div class="header-logo">
+          <a href="index-2.html">
+            <img src="assets/logoM.png" alt="Awesome Logo" id="logoM">
+          </a>
+        </div>
+      </div>
+      <div class="col-xl-9 col-lg-9 col-md-12">
+        <!-- Add PDF links here -->
+        <div class="pdf-links">
+          <ul>
+            <li><a href="assets/PCI.pdf" target="_blank">PCI</a></li>
+            <li><a href="assets/anti_ragging.pdf" target="_blank">Anti Ragging</a></li>
+            <li><a href="assets/RGUHS.pdf" target="_blank">RGUHS</a></li>
+            <li><a href="assets/Application.pdf" target="_blank">Download Application</a></li>
+            <!-- Add more PDF links as needed -->
+            
+          </ul>
+        </div>
+        <!-- End PDF links -->
+        <div class="header-contact-info">
+          <ul>
+            <!-- Existing content (address, contact, apply now) goes here -->
+            <li>
+              <div class="iocn-holder">
+                <span class="material-symbols-outlined">
+                  home
+                </span>
+              </div>
+              <div class="text-holder">
+                <strong>ADDRESS:</strong>
+                <p>RT NAGAR TUMKUR 572103</p>
+              </div>
+            </li>
+            <li>
+              <div class="iocn-holder">
+                <span class="material-symbols-outlined">
+                  phone_in_talk
+                </span>
+              </div>
+              <div class="text-holder">
+                <strong>PHONE:</strong>
+                <p>(+91  9480150808)</p>
+              </div>
+            </li>
+            <li>
+              <div class="link-btn">
+                <button class="button-background-move" role="button" (click)="apply();">Apply Now</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
 <nav class="navbar navbar-expand-lg bg-body-light">
     <div class="container-fluid">
@@ -105,9 +164,9 @@
 
 
 
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="bsc">D.Pharm</a></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="diplomo">D.Pharm</a></li>
               <li><hr class="dropdown-divider"></li>              
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="diplomo">B.Pharm</a></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="bsc">B.Pharm</a></li>
               <li><hr class="dropdown-divider"></li>
             
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="affiliations">Affiliations</a></li>
@@ -121,24 +180,24 @@
               Facilities
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="clinical">Clinical Facilities</a></li>
-              <li><hr class="dropdown-divider"></li> 
+              <!-- <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="clinical">Clinical Facilities</a></li>
+              <li><hr class="dropdown-divider"></li>  -->
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="laboratory">Laboratory</a></li>
               <li><hr class="dropdown-divider"></li>             
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="library">Library</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="hostel">Hostel</a></li>
+              <!-- <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="hostel">Hostel</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="canteen">Canteen</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="transportation">Transportation</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li><hr class="dropdown-divider"></li> -->
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="sports">Sports</a></li>
             </ul>
           </li>
          
          
-          <!-- <li class="nav-item mx-3 dropdown dropdown-hover"> 
+          <li class="nav-item mx-3 dropdown dropdown-hover"> 
             <a class="nav-link"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Students Corner
             </a>
@@ -154,7 +213,7 @@
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="alumni">Alumni</a></li>
          
             </ul>
-          </li> -->
+          </li>
           
           
           <li class="nav-item mx-3">
