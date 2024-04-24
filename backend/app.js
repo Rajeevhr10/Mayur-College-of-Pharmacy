@@ -13,7 +13,7 @@ app.use(cors({
   
 
 // MongoDB connection string
-const url = 'mongodb://127.0.0.1:27017/mallige'; // Change to your database name
+const url = 'mongodb://127.0.0.1:27017/mayur'; // Change to your database name
 
 
 
