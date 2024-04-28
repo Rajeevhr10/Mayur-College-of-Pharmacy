@@ -169,10 +169,12 @@
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="bsc">B.Pharm</a></li>
               <li><hr class="dropdown-divider"></li>
             
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="affiliations">Affiliations</a></li>
+              <!-- <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="affiliations">Affiliations</a></li> -->
             </ul>
           </li>
-
+          <li class="nav-item mx-3">
+            <a class="nav-link"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="affiliations">Affiliations</a>
+          </li>
          
          
           <li class="nav-item mx-3 dropdown dropdown-hover"> <!-- Add dropdown-hover class -->
@@ -203,15 +205,16 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="co-curricular">Co-Curricular Activities</a></li>
-              <li><hr class="dropdown-divider"></li> 
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="nri">NRI/International Students</a></li>
+              
               <li><hr class="dropdown-divider"></li>             
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }"routerLink="achivements">Achivements</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="testimonals">Testimonals</a></li>
+              
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="alumni">Alumni</a></li>
-         
+              <!-- <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="testimonals">Testimonals</a></li>
+              <li><hr class="dropdown-divider"></li> 
+              <li><a class="dropdown-item"[routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" routerLink="nri">NRI/International Students</a></li> -->
             </ul>
           </li>
           

@@ -143,17 +143,10 @@
     
  text-decoration: none;
  color: white;
- background:
-      linear-gradient(
-        to right,
-        #1CB582,#1CB582
-        
-      ),
-      linear-gradient(
-        to right,
-        rgb(255, 255, 255),
-        rgb(208, 255, 0),
-        rgb(16, 247, 255)
+ background:linear-gradient(to right, #1CB582,#1CB582 ),linear-gradient(to right,rgb(255, 255, 255),
+  rgb(208, 255, 0),
+        /* rgb(16, 247, 255) */
+        rgb(43, 193, 198)
     );
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
@@ -178,11 +171,16 @@
   .about
   {
  /* background-color: rgb(228, 255, 253);*/
-    background: linear-gradient(to right,rgb(228, 255, 253),#c0ffe0);
+ /* css-changed */
+    /* background: linear-gradient(to right,rgb(228, 255, 253),#c0ffe0); */
+    background: linear-gradient(to right,rgb(228, 255, 253),#5eccf4);
     padding :30px;
   }
   .about h2{
-    color:#1CB582;
+    /* css-changed */
+    /* color:#1CB582; */
+    color:#1d63a4;
+     
     font-weight: 700;
     font-size: 35px;
     text-align: left;
@@ -214,7 +212,10 @@
   
 }
 .banner h2{
-  background: linear-gradient(to right,#1CB582,rgb(0, 235, 164));
+  /* css changed */
+  /* background: linear-gradient(to right,#1CB582,rgb(0, 235, 164)); */
+ 
+  background: linear-gradient(to right,rgb(61, 213, 203),#5eccf4);
   color:yellow;
   padding: 30px;
   text-align: center;
@@ -223,7 +224,9 @@
 }
 
 .banner h3{
-  color: #1CB582;
+   /* css-changed */
+  /* color: #1CB582; */
+  color:#1d63a4;
   font-size: large;
  
 }
@@ -246,7 +249,9 @@
   width: 100%;
   background-color: #ffffff;
   border-radius: 5px;
-  border-top: 5px solid #1CB582;
+   /* css-changed */
+  /* border-top: 5px solid #1CB582; */
+  border-top: 5px solid #1d63a4;
   width: 300px;
   margin: 20px;
   text-align: center;
@@ -270,7 +275,9 @@
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  color: #1CB582;
+     /* css-changed */
+  /* color: #1CB582; */
+  color: #1d63a4;
   content: "\f10e";
   font-family: 'FontAwesome';
   font-size: 32px;
@@ -371,7 +378,9 @@
 }
 
  .co .card:nth-child(3) .box .content a {
-  background: #23c186;
+     /* css-changed */
+  /* background: #23c186; */
+  background: #1d63a4;
 }
 
  .co .card .box {
@@ -380,7 +389,9 @@
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #23c186;
+   /* css-changed */
+  /* background: #23c186; */
+  background: #1d63a4;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -451,7 +462,9 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
 .cou h1{
-  color:#1CB582;
+   /* css-changed */
+  /* color:#1CB582; */
+  color:#1d63a4;
 
   font-family: 'Bebas Neue', sans-serif;
 }
@@ -460,7 +473,9 @@
 
 .announsments
 {
-background-color: #1CB582;
+   /* css-changed */
+/* background-color: #1CB582; */
+background-color: #5bb7f8;
 width:40%;
 padding: 15px;
 color: white;
@@ -471,7 +486,9 @@ font-family: 'Frank Ruhl Libre', serif;
 .events
 {
   width:60%;
-  background-color:rgb(228, 255, 253);
+    /* css-changed */
+  /* background-color:rgb(228, 255, 253); */
+  background-color:rgb(76, 211, 235); 
   font-family: 'Frank Ruhl Libre', serif;
 
 
@@ -489,8 +506,9 @@ font-family: 'Frank Ruhl Libre', serif;
 
 .date{
   background-color: #eeff00;
-  
-  color:#1CB582;
+  /* css-changed */
+  /* color:#1CB582; */
+  color:#1d63a4;
 padding-top: 15px;
   width: 30%;
   text-align: center;
@@ -507,7 +525,9 @@ h5{
 }
 
 .day{
-  background-color: #1CB582;
+   /* css-changed */
+  /* background-color: #1CB582; */
+  background-color:  #5bb7f8;
   color:white;
   width: 50%;
   text-align: center;
@@ -625,7 +645,7 @@ h5{
 }
 
 .img3 {
-  background-image: url("/assets/indian-nursing-council.png");
+  background-image: url("/assets/pci_logo.png");
 }
 
 .img4 {
@@ -681,8 +701,11 @@ h5{
 .gallery-filter li:hover span,
 .gallery-filter li.active span {
 	color: #ffffff;
-	background: #1CB582;
-	border-color: #1CB582;
+   /* css-changed */
+	/* background: #1CB582;
+	border-color: #1CB582; */
+  background: #5bb7f8;
+	border-color: #5bb7f8;
 	transition: .5s ease;
 }
 
@@ -762,7 +785,9 @@ h5{
 
 .gallery-item .overlay a:hover {
 	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
-	color: #1CB582;
+    /* css-changed */
+	/* color: #1CB582; */
+  color:#1d63a4;
 }
 
 .gallery-item:hover .overlay a {
@@ -803,14 +828,16 @@ h5{
 .gallery-item .date-box h6 {
 	position: relative;
 	z-index: 8;
-	font-size: 17px;
+	font-size: 12px;
 	color: #ffffff;
 	width: 65px;
 	height: 65px;
 	text-align: center;
 	line-height: 55px;
 	border-radius: 50%;
-	background: #1CB582;
+/* css-changed */
+	/* background: #1CB582; */
+  background: #5bb7f8;
 	border: 6px solid #ffffff;
 	font-family: 'Roboto', sans-serif;
 }
@@ -823,7 +850,9 @@ h5{
 
 .gallery-item .reting i,
 .gallery-item .reting span {
-	color: #1CB582;
+  /* css-changed */
+	/* color: #1CB582; */
+  color:#1d63a4;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 400;
@@ -831,7 +860,9 @@ h5{
 }
 
 .gallery-item .reting a {
-	color: #1CB582;
+   /* css-changed */
+	/* color: #1CB582; */
+  color:#1d63a4;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 500;
@@ -859,7 +890,10 @@ h5{
 }
 
 .gallery-item .bottom-text h6 a:hover {
-	color: #1CB582;
+   /* css-changed */
+	/* color: #1CB582; */
+  color:#1d63a4;
+  
 	transition: .5s ease;
 }
 
@@ -878,7 +912,9 @@ h5{
 
 .gallery-item .info p i {
 	margin-right: 8px;
-	color: #1CB582;
+     /* css-changed */
+	/* color: #1CB582; */
+  color:#1d63a4;
 }
 
 .fancybox-skin {
@@ -888,7 +924,9 @@ h5{
 .heading
 {
 font-family: 'Frank Ruhl Libre', serif; 
-color: #1CB582;
+ /* css-changed */
+/* color: #1CB582; */
+color:#1d63a4;
 font-size: 35px
 }
 
@@ -925,7 +963,10 @@ font-size: 35px
   top: 5rem;
 
   font-family: 'Frank Ruhl Libre', serif; 
-  color: #1CB582;
+  /* css-changed */
+  /* color: #1CB582; */
+  color:#1d63a4;
+  
   font-size: 35px!important;
   margin: 0 0 0.5em;
 
@@ -988,7 +1029,9 @@ If you use SASS you can shorten this one here like this:
     justify-content: center;
     width: 2.75em;
     height: 2.75em;
-    background: #1CB582;
+     /* css-changed */
+    /* background: #1CB582; */
+    color:#1d63a4;
     color: #fff;
     text-align: center;
     border-radius: 50%;
@@ -1017,7 +1060,9 @@ If you use SASS you can shorten this one here like this:
 .scroll-cards .scroll-cards__item h3, .scroll-cards .scroll-cards__item h4{
   font-family: 'Roboto', sans-serif;
 font-size: 20px;
-color: #1CB582;
+/* css-changed */
+/* color: #1CB582; */
+color:#1d63a4;
 }
 .scroll-cards .scroll-cards__item a{
   float: right;
