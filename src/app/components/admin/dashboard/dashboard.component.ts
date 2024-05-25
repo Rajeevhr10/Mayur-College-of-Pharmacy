@@ -145,6 +145,7 @@ export class DashboardComponent {
     const url = 'http://localhost:3000/deleteImage/'+imageId
     this.http.delete(url).subscribe(
       (response) => {
+        alert("Image deleted successfully")
         console.log(response);
         this.ngOnInit();
       },
@@ -194,6 +195,7 @@ export class DashboardComponent {
     
     this.http.post('http://localhost:3000/announcment', formData).subscribe(
       response => {
+        alert(this.title + " submitted succesfully")
         console.log('Announcement added successfully', response);
         this.ngOnInit(); // Reset the form or perform other actions
       },
@@ -234,6 +236,7 @@ id_edit:string=''
       // Send formData to your backend using HttpClient
       this.http.put('http://localhost:3000/editAnnouncement/'+this.id_edit, announcmentData).subscribe(
         response => {
+          alert(this.title+"Edited succesfully")
           console.log('Application submitted successfully', response);
           this.ngOnInit();
           // Reset the form or perform other actions
@@ -261,6 +264,7 @@ id_edit:string=''
             const url = 'http://localhost:3000/deleteAnnouncment/'+announcementId
             this.http.delete(url).subscribe(
               (response) => {
+                alert(this.title + "  deleted successfully")
                 console.log(response);
                 this.ngOnInit();
               },
@@ -356,6 +360,7 @@ year:this.year_edit_event,
           const url = 'http://localhost:3000/deleteEvent/'+eventId
           this.http.delete(url).subscribe(
             (response) => {
+              alert(eventId+"deleted succesfully")
               console.log(response);
               this.ngOnInit();
             },
@@ -378,7 +383,7 @@ year:this.year_edit_event,
         }
       
         onSubmitImage() {
-          const formData = new FormData();
+          const formData = new FormData(); 
           formData.append('title', this.title_image);
           formData.append('description', this.description_image);
           if (this.selectedImage) {
@@ -387,6 +392,7 @@ year:this.year_edit_event,
       
           this.http.post('http://localhost:3000/upload', formData).subscribe(
             response => {
+              window.alert(this.selectedImage+' uploaded successfully:')
               console.log('Image uploaded successfully:', response);
              
               // Reset the inputs

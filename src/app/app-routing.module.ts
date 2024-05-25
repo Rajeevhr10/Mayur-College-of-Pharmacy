@@ -33,6 +33,7 @@ import { ApplyComponent } from './components/apply/apply.component';
 import { LoginComponent } from './components/admin/login/login.component';
 import { DashboardComponent } from './components/admin/dashboard/dashboard.component';
 import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
+import { BpharmComponent } from './components/courses/bpharm/bpharm.component';
 
 const routes: Routes = [
   {
@@ -44,6 +45,9 @@ const routes: Routes = [
   },
   {
     component:BscComponent,path:"bsc"
+  },
+  {
+    component:BpharmComponent,path:"bpharm"
   },
   {
     component:MscComponent,path:"msc"

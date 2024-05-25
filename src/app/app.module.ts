@@ -41,6 +41,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './components/admin/dashboard/dashboard.component';
 import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
+import { BpharmComponent } from './components/courses/bpharm/bpharm.component';
 
 
 
@@ -52,6 +53,7 @@ import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
     HomeComponent,
     AboutComponent,
     BscComponent,
+    BpharmComponent,
     MscComponent,
     DiplomoComponent,
     BannerComponent,
@@ -81,7 +83,8 @@ import { SidebarComponent } from './components/admin/sidebar/sidebar.component';
     ApplyComponent,
     LoginComponent,
     DashboardComponent,
-    SidebarComponent
+    SidebarComponent,
+    BpharmComponent
   ],
   imports: [
     BrowserModule,

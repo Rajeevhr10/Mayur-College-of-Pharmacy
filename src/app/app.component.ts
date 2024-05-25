@@ -6,7 +6,7 @@ import AOS from 'aos'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'nursing';
+  title = 'pharmacy';
   ngOnInit(): void {
     window.onload = () => {
       AOS.init();

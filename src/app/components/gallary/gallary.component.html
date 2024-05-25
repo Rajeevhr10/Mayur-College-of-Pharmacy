@@ -23,6 +23,7 @@
   <div class="gallery-image">
     <div class="img-box"*ngFor="let image of images">
       <img [src]="'http://localhost:3000/uploads/' + image.image" alt="{{ image.title }}" />
+     
       <div class="transparent-box">
         <div class="caption">
           <p>{{image.title}}</p>
